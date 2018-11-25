@@ -1,4 +1,10 @@
-.mainDiv { maargin: auto; background-color: lightgrey; width: 660px;
-padding-top: 20px; padding-bottom: 10px;}
+.mainDiv 
+{
+	maargin: auto; background-color: lightgrey; width: 660px;
+	padding-top: 20px; padding-bottom: 10px;
+	}
 
-table { margin: auto; }
+table
+{
+	margin: auto;
+	}

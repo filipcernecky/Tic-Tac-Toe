@@ -6,11 +6,35 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/script.js" charset="utf-8"></script>
 <style>
+body {
+    background-color:rgb(57, 119, 79);
+}
 
+h1 {
+    color: Black;
+    text-align: center;
+}
+
+div.a {
+    font-size: 20px;
+}
+
+div.b {
+    font-size: 20px;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+div.c {
+    font-size: 20px;
+}
 </style>
 </HEAD>
 <BODY>
-	<div class="mainDiv">
+<H1 Style="background-color:rgb(0, 42, 2);color:white;border:2px solid white;"> Tic Tac Toe </H1>
+
+	<div align="center";class="mainDiv">
        <table border="1">
          <tr>
               <td><img src="img/empty.png"  name="image" onclick="imgClick(0)"></td>
@@ -28,6 +52,11 @@
               <td><img src="img/empty.png"  name="image" onclick="imgClick(8)"></td>
          </tr>
        </table>
+	   <div id="player">Next player: X</DIV>
+	   <br>
+       <div><button onclick="resetGame()">Reset</button></DIV>
+     </div>
      </div>
 </BODY>
 </HTML>
+
